@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imgBG"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/bg"
+                            android:scaleType="centerCrop"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+                        <Button
+                            android:id="@+id/btn01"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#ebe1dd"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"/>
+
+                        <Button
+                            android:id="@+id/btn02"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#eccbca"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"/>
+
+                        <Button
+                            android:id="@+id/btn03"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#75839c"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"/>
+
+                        <Button
+                            android:id="@+id/btn04"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#99a9bf"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"/>
+
+                        <Button
+                            android:id="@+id/btn05"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#c3ccd5"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"/>
+
+                        <Button
+                            android:id="@+id/btn06"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#dde2e5"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"/>
+                </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:hint="RGB"
+            android:background="#ecaaaa"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+</RelativeLayout>
